@@ -5,4 +5,4 @@ def post_list(request):
     posts = Post.objects.all()
     return render(request, 'blog/post_list.html', {'posts':posts})
 
-# Create your views here.
+# Create your views here.11
